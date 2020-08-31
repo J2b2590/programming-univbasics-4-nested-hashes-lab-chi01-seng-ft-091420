@@ -93,12 +93,14 @@ new_hash = {:yukihiro_matsumoto => {
 		}
 	}
 
-	puts new_hash
 
-		puts programmer_hash.merge(:yukihiro_matsumoto => {
-				  :known_for => "Ruby",
-				  :languages => ["LISP", "C"]
-				})
+
+		# puts programmer_hash.merge(:yukihiro_matsumoto => {
+		# 		  :known_for => "Ruby",
+		# 		  :languages => ["LISP", "C"]
+		# 		})
+
+		programmer_hash = new_hash + 1
 
 		programmer_hash
 
