@@ -100,7 +100,7 @@ new_hash = {:yukihiro_matsumoto => {
 		# 		  :languages => ["LISP", "C"]
 		# 		})
 
-		programmer_hash = new_hash += 1
+		programmer_hash = new_hash 
 
 		programmer_hash
 
