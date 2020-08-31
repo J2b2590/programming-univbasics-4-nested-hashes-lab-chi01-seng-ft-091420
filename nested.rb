@@ -93,6 +93,8 @@ new_hash = {:yukihiro_matsumoto => {
 		}
 	}
 
+	puts new_hash
+
 		puts programmer_hash.merge(new_hash)
 
 		puts programmer_hash
