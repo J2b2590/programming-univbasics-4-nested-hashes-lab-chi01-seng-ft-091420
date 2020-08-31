@@ -97,7 +97,7 @@ new_hash = {:yukihiro_matsumoto => {
 
 		puts programmer_hash << new_hash
 
-		puts programmer_hash
+		programmer_hash
 
 end
 
